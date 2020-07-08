@@ -1,0 +1,113 @@
+    header {
+        text-align: center;
+        background-color: #f1f1f1;
+        border-bottom: 2px solid #000000;
+        padding: 25px;
+        font-family: "Goudy Bookletter 1911", sans-serif;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .buttons {
+        padding: 5em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+
+    #paper {
+        padding: 1em;
+        margin: 50px;
+        background-color: #ffff59;
+        box-shadow: 2px 1px 0px 1px black;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        font-size: 20px;
+        font-style: oblique;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #paper:hover {
+        transform: scale(1.1);
+
+    }
+
+    #rock {
+        padding: 1em;
+        margin: 50px;
+        background-color: #ffff59;
+        box-shadow: 2px 1px 0px 1px black;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        font-size: 20px;
+        font-style: oblique;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #rock:hover {
+        transform: scale(1.1);
+    }
+
+    #scissors {
+        padding: 1em;
+        margin: 50px;
+        background-color: #ffff59;
+        box-shadow: 2px 1px 0px 1px black;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        font-size: 20px;
+        font-style: oblique;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #scissors:hover {
+        transform: scale(1.1);
+    }
+
+    #result {
+        font-size: 20px;
+        text-align: center;
+        padding: 1em;
+        white-space: pre-line;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        }
+
+    #finalResult {
+        font-size: 20px;
+        text-align: center;
+        padding: 2em;
+        padding-bottom: 0em;
+        white-space: pre-line;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;    
+    }
+
+    .replay {
+        text-align: center;
+        padding: 2em;
+        padding-top: 0.5em;
+    }
+
+    #replay {
+        padding: 4px;
+        background-color: #ffff59;
+        border-style: solid;
+        border-width: 1.5px;
+        border-color: black;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        width: 100px;
+    }
